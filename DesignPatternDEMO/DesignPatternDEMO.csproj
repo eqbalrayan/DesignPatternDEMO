@@ -43,8 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryDesign\EmployeeAbstractFactory.cs" />
+    <Compile Include="AbstractFactoryDesign\EmployeeFactory.cs" />
+    <Compile Include="AbstractFactoryDesign\IEmployee.cs" />
+    <Compile Include="AbstractFactoryDesign\KotlinDev.cs" />
+    <Compile Include="AbstractFactoryDesign\KotlinDevFactory.cs" />
+    <Compile Include="AbstractFactoryDesign\MicrosoftDev.cs" />
+    <Compile Include="AbstractFactoryDesign\MicrosoftDevFactory.cs" />
+    <Compile Include="BuilderDesignPattern\User.cs" />
+    <Compile Include="factoryDesignPattern\database\DatabaseFactory.cs" />
+    <Compile Include="factoryDesignPattern\database\IDatabse.cs" />
+    <Compile Include="factoryDesignPattern\database\Mogodb.cs" />
+    <Compile Include="factoryDesignPattern\database\MySQL.cs" />
+    <Compile Include="factoryDesignPattern\employee\AndroidDev.cs" />
+    <Compile Include="factoryDesignPattern\employee\EmployeeFactory.cs" />
+    <Compile Include="factoryDesignPattern\employee\IEmployee.cs" />
+    <Compile Include="factoryDesignPattern\employee\WebDev.cs" />
     <Compile Include="MyApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypeDesignPattern\MyFileReader.cs" />
     <Compile Include="singeltonDesignPattern\animal\Animal.cs" />
     <Compile Include="singeltonDesignPattern\animal\Cat.cs" />
     <Compile Include="singeltonDesignPattern\animal\Dog.cs" />
@@ -55,8 +72,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="factoryDesignPattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
